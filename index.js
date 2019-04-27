@@ -50,7 +50,7 @@ module.exports = function AutoVanguard(mod) {
   });
 
   // game state
-  mod.hook('S_LOGIN', 12, (e) => {
+  mod.hook('S_LOGIN', 13, (e) => {
     playerName = e.name;
     if (!enable)
       return;
